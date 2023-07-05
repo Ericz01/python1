@@ -1,0 +1,17 @@
+git clone https://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@github.com/Ericz01/c-programs.git
+
+
+***********************************************************************
+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
+git clone https://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@github.com/Ericz01/python1.git
+
+*******************************************************************
+git config --global user.name "Ericz01"
+
+git config --global user.email "erickinyua770@gmail.com"
+*****************************************************************
+
+//this is the pip installation folder. cd to it in cmd and voila!!
+
+C:\Users\user\AppData\Local\Programs\Python\Python311
+*******************************************************************

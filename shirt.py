@@ -22,7 +22,7 @@ def main():
     final_image.paste(shirt1, shirt1)
 
     #save final image to argv[2]
-    final_image(sys.argv[2])
+    final_image.save(sys.argv[2])
 
 def check_command_line():
     if len(sys.argv) < 3:
@@ -39,7 +39,7 @@ def check_command_line():
         sys.exit('Invalid input')
 
     #check if the extensions are similar
-    if input_image[1].lower != output_image[1].lower:
+    if input_image[1].lower() != output_image[1].lower():
         sys.exit('Input and output have different extensions')
 
 if __name__ == "__main__":
