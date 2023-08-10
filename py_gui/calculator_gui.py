@@ -83,4 +83,10 @@ btn_bracket1.grid(row=5, column=1)
 
 btn_bracket2 = tk.Button(root, text=')', command=lambda: add_to_calculation(')'), width=5, font=('Arial', 15))
 btn_bracket2.grid(row=5, column=3)
+
+btn_clear = tk.Button(root, text='C', command=clear_field, width=11, font=('Arial', 15))
+btn_clear.grid(row=6, column=1, columnspan=2)
+
+btn_equals = tk.Button(root, text='=', command=evaluate_calculation, width=11, font=('Arial', 15))
+btn_equals.grid(row=6, column=3, columnspan=2)
 root.mainloop()
